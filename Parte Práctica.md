@@ -1,6 +1,6 @@
 # PARTE PRACTICA
 
-## Ejercicio 1 — Calculadora básica
+## 1 Calculadora básica
 
 ### Descripción
 
@@ -65,7 +65,7 @@ Este programa recibe una palabra y cuenta cuántas vocales y consonantes tiene.
 
 import java.util.Scanner;
 
-public class VocalesConsonantes {
+public class Contador {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -88,5 +88,29 @@ public class VocalesConsonantes {
 
         System.out.println("Vocales: " + vocales);
         System.out.println("Consonantes: " + consonantes);
+    }
+}
+
+## 3. Invertir una cadena de texto
+
+Este programa recibe un texto y muestra la cadena escrita al revés.
+
+import java.util.Scanner;
+
+public class InvertirCadena {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Ingrese un texto: ");
+        String texto = sc.nextLine();
+
+        String invertido = "";
+
+        for (int i = texto.length() - 1; i >= 0; i--) {
+            invertido += texto.charAt(i);
+        }
+
+        System.out.println("Texto invertido: " + invertido);
     }
 }
