@@ -248,6 +248,8 @@ git show ID_DEL_COMMIT
 ```
 Estos comandos sirven para revisar los cambios realizados y consultar el historial del proyecto.
 
+# Programación
+
 ## 15. ¿Cuáles son los tipos de datos primitivos en Java?
 
 Los tipos de datos primitivos en Java son:
