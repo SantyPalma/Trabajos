@@ -246,5 +246,92 @@ git diff
 ```bash
 git show ID_DEL_COMMIT
 ```
-
 Estos comandos sirven para revisar los cambios realizados y consultar el historial del proyecto.
+
+## 15. ¿Cuáles son los tipos de datos primitivos en Java?
+
+Los tipos de datos primitivos en Java son:
+
+* **byte:** almacena números enteros pequeños.
+* **short:** almacena números enteros.
+* **int:** almacena números enteros, es uno de los más utilizados.
+* **long:** almacena números enteros grandes.
+* **float:** almacena números decimales.
+* **double:** almacena números decimales con mayor precisión.
+* **char:** almacena un solo carácter.
+* **boolean:** almacena valores `true` o `false`.
+
+## 16. ¿Cómo funcionan las estructuras de control de flujo como if, else, switch y bucles en Java?
+
+Las estructuras de control permiten decidir qué instrucciones ejecutar y cuántas veces hacerlo.
+
+`if` y `else` permiten ejecutar diferentes instrucciones dependiendo de una condición.
+
+`switch` permite elegir entre diferentes opciones según el valor de una variable.
+
+Los bucles como `for`, `while` y `do while` permiten repetir instrucciones varias veces mientras se cumpla una condición.
+
+## 17. ¿Por qué es importante usar nombres significativos para variables y métodos?
+
+Es importante porque permite entender fácilmente qué hace cada variable o método.
+
+Por ejemplo, es más fácil entender `nombreUsuario` que una variable llamada `x`.
+
+Usar nombres claros hace que el código sea más fácil de leer, mantener y modificar.
+
+## 18. ¿Qué es la Programación Orientada a Objetos (POO)?
+
+La Programación Orientada a Objetos es una forma de programar basada en objetos y clases.
+
+Los objetos representan elementos que tienen características y comportamientos. Las clases sirven como una estructura para crear esos objetos.
+
+La POO permite organizar mejor el código y reutilizarlo.
+
+## 19. ¿Cuáles son los cuatro pilares de la Programación Orientada a Objetos?
+
+Los cuatro pilares de la POO son:
+
+* **Encapsulamiento:** protege los datos de un objeto y controla cómo se pueden modificar.
+* **Abstracción:** permite mostrar solo la información importante y ocultar detalles innecesarios.
+* **Herencia:** permite que una clase pueda recibir características y métodos de otra clase.
+* **Polimorfismo:** permite que un mismo método pueda tener diferentes comportamientos dependiendo del objeto.
+
+## 20. ¿Qué es la herencia en POO y cómo se utiliza en Java?
+
+La herencia permite que una clase herede características y métodos de otra clase.
+
+En Java se utiliza la palabra `extends`.
+
+Por ejemplo:
+
+```java
+class Animal {
+    void comer() {
+        System.out.println("El animal está comiendo");
+    }
+}
+
+class Perro extends Animal {
+}
+```
+
+En este caso, `Perro` hereda el método `comer()` de `Animal`.
+
+## 21. ¿Qué son los modificadores de acceso y cuáles son los más comunes en Java?
+
+Los modificadores de acceso controlan desde dónde se puede acceder a una clase, atributo o método.
+
+Los más comunes son:
+
+* **public:** permite acceder desde cualquier parte del programa.
+* **private:** solo permite acceder desde la misma clase.
+* **protected:** permite acceder desde la misma clase, clases del mismo paquete y clases que hereden de ella.
+* **default:** permite acceder desde clases que pertenecen al mismo paquete.
+
+## 22. ¿Qué es una variable de entorno y por qué son importantes para Java o la programación en general?
+
+Una variable de entorno es un valor que el sistema operativo almacena y que puede ser utilizado por diferentes programas.
+
+En Java, por ejemplo, `JAVA_HOME` puede indicar dónde está instalada la versión de Java.
+
+Las variables de entorno son importantes porque permiten configurar programas y rutas sin tener que escribirlas directamente dentro del código.
