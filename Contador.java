@@ -1,7 +1,3 @@
-## 2. Contar vocales y consonantes
-
-Este programa recibe una palabra y cuenta cuántas vocales y consonantes tiene.
-
 import java.util.Scanner;
 
 public class Contador { public static void main(String[] args) { Scanner sc = new Scanner(System.in);
