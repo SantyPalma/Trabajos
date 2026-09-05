@@ -1,7 +1,3 @@
-## 3. Invertir una cadena de texto.
-
-Este programa recibe un texto y muestra la cadena escrita al revés.
-
 import java.util.Scanner;
 
 public class InvertirCadena {
