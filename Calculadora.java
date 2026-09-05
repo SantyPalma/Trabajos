@@ -1,9 +1,3 @@
-## 1 Calculadora básica
-
-# Descripción
-
-Programa que permite realizar operaciones de suma, resta, multiplicación y división.
-
 import java.util.Scanner;
 
 public class Calculadora { public static void main(String[] args) { Scanner sc = new Scanner(System.in); System.out.println("Calculadora Basica");
